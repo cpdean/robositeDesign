@@ -114,6 +114,13 @@ border: 4px solid #000;
 border-radius: 6px;
 }
 
+#content article img
+{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
 p.footer {
 text-align:center;
 color: #778899;
