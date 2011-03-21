@@ -1,13 +1,15 @@
-body {
-background: #fff;
-color: #444;
-line-height: 20px;
-font-size: 14px;
-font-family: Lucida, Georgia, "Times New Roman", Times, serif;
+body
+{
+    background: #fff;
+    color: #444;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: Lucida, Georgia, "Times New Roman", Times, serif;
 }
 
-p {
-margin-bottom: 1em;
+p
+{
+    margin-bottom: 1em;
 }
 
 p a:hover
@@ -17,44 +19,50 @@ p a:hover
     line-height: 0px;
 }
 
-h2 {
-font-size: 20px;
-line-height: 28px;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #444;
+h2
+{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
 }
 
 
-a, a:visited {
-color: #aa0;
-text-decoration: none;
+a, a:visited
+{
+    color: #aa0;
+    text-decoration: none;
 }
 
-a:hover, a:active {
-color: #a0a;
-text-decoration: none;
+a:hover, a:active
+{
+    color: #a0a;
+    text-decoration: none;
 }
 
 
-header {
+header
+{
     display:block;
-height: 150px;
-margin: 0 250px;
+    height: 150px;
+    margin: 0 250px;
 }
 
-header h1 {
-font-size: 80px;
-line-height: 49px;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #000;
+header h1
+{
+    font-size: 80px;
+    line-height: 49px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
 }
 
 header h1 a,
-header h1 a:visited {
-display: block;
-width: 221px;
-height: 57px;
-color: #000;
+header h1 a:visited
+{
+    display: block;
+    width: 221px;
+    height: 57px;
+    color: #000;
 }
 
 nav
@@ -65,56 +73,70 @@ nav
     text-align: right;
 }
 
-nav ul {
-margin: 0;
-list-style-type: none;
+nav ul
+{
+    margin: 0;
+    list-style-type: none;
     padding: 0;
 }
 
 
 nav ul li a,
-nav ul li a:visited {
+nav ul li a:visited
+{
     display:block;
     padding-right: 5%;
-font-size: 30px;
-line-height: 24px;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #111;
+    font-size: 30px;
+    line-height: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
 }
 
-nav ul li a.selected {
-color: #fff;
-background: #000;
+nav ul li a.selected
+{
+    color: #fff;
+    background: #000;
 }
 
-nav ul li a:hover {
-background: #ddd;
+nav ul li a:hover
+{
+    background: #ddd;
 }
 
-#container {
-width: 100%;
-min-width: 780px;
+#container
+{
+    width: 100%;
+    min-width: 780px;
 }
 
-#content {
-display:block;
-position: relative;
-width: 695px;
-margin: 0 auto;
-margin-top: 0;
-margin-left: 196px;
-margin-right: 0;
-padding: 25px 20px;
-min-height: 435px;
-
-background-color: #fff;
-border: 4px solid #000;
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
+#content
+{
+    display:block;
+    position: relative;
+    width: 695px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-left: 196px;
+    margin-right: 0;
+    padding: 25px 20px;
+    min-height: 435px;
+    /* Border and background */
+    background-color: #fff;
+    border: 4px solid #000;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
-p.footer {
-text-align:center;
-color: #778899;
+#content article img
+{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+p.footer
+{
+    text-align:center;
+    color: #778899;
 }
