@@ -134,6 +134,8 @@ nav ul li a:hover
 #content article img
 {
     display:block;
+
+    /* pushes the image from both sides equally */
     margin-left: auto;
     margin-right:auto;
 }
